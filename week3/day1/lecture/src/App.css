@@ -1,0 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: grey;
+  padding-top: 40px;
+}

@@ -1,0 +1,6 @@
+/* nav style */
+.nav{
+    padding: 20px;
+    background-image: linear-gradient(#fc5c7d, #6a82fb);
+    border-bottom: 1px solid #000;
+}

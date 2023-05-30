@@ -1,0 +1,10 @@
+.todo-list{
+    background-color: grey;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 2px 5px;
+    list-style: none;
+}
+ul{
+    width: 20%;
+}

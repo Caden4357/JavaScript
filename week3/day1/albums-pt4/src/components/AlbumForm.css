@@ -1,0 +1,28 @@
+label, input{
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 2px 2px rgb(79, 66, 66);
+}
+button{
+    /* background: linear-gradient(to right, rgb(149, 138, 138), rgb(166, 189, 211)); */
+    background-image: linear-gradient(to right bottom, #000cdf, #006dff, #0098fc, #00bacc, #00d6a5);
+    color: white;
+    font-size: large;
+    padding: 8px;
+    box-shadow: 3px 4px 2px 2px rgb(79, 66, 66);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.error-red{
+    color: red;
+}
+.delete-button{
+    background-image: linear-gradient(to right bottom, #ff006e, #ff2c61, #ff4455, #ff584b, #ff6a42);
+    /* box-shadow: 3px 1px 2px 1px rgb(79, 66, 66); */
+}

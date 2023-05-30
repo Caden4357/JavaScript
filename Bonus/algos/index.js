@@ -1,0 +1,5 @@
+const add = require('./func')
+// require('./func')
+// console.log(add(4,2))
+// console.log(add(13,23))
+// console.log(add(40,-2))

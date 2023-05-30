@@ -1,0 +1,18 @@
+import { useState } from 'react';
+import './App.css';
+import API from './components/API';
+import DisplayShows from './components/DisplayShows';
+import ShowForm from './components/ShowForm';
+
+function App() {
+  const [showList, setShowList] = useState([])
+  return (
+    <div className="App">
+      <ShowForm showList={showList} setShowList={setShowList}/>
+      <DisplayShows showList={showList} setShowList={setShowList}/>
+      <API/>
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,16 @@
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
+.App{
+  text-align: center;
+  background-image: linear-gradient(to right bottom, #000cdf, #006dff, #0098fc, #00bacc, #00d6a5);
+  color: white;
+  height: 100vh;
+}
